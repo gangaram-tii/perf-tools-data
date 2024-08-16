@@ -1,0 +1,7 @@
+[nix-shell:/workspace/ghaf-playground/apparmor_perf/apparmor/youtube]$ python average.py cpu_load.txt 
+The average is: 20.73878612716763
+(.venv) 
+[nix-shell:/workspace/ghaf-playground/apparmor_perf/apparmor/youtube]$ python average.py cpu_load_with_aa.txt 
+The average is: 19.91236994219652
+(.venv) 
+[nix-shell:/workspace/ghaf-playground/apparmor_perf/apparmor/youtube]$

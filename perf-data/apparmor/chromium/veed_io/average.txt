@@ -1,0 +1,14 @@
+[nix-shell:/workspace/ghaf-playground/apparmor_perf/apparmor/veed_io]$ python average.py recording.txt 
+The average is: 42.14492753623189
+(.venv) 
+[nix-shell:/workspace/ghaf-playground/apparmor_perf/apparmor/veed_io]$ python average.py recording_with_apparmor.txt 
+The average is: 42.871228070175405
+(.venv) 
+[nix-shell:/workspace/ghaf-playground/apparmor_perf/apparmor/veed_io]$ python average.py playback.txt 
+The average is: 41.088154761904754
+(.venv) 
+[nix-shell:/workspace/ghaf-playground/apparmor_perf/apparmor/veed_io]$ python average.py playback_with_apparmor.txt 
+The average is: 41.619661538461564
+(.venv) 
+[nix-shell:/workspace/ghaf-playground/apparmor_perf/apparmor/veed_io]$ 
+
